@@ -131,3 +131,14 @@ img.line_animation {
   position: relative;
   border: 1px solid red;
 }
+.hero_slider {
+  position: relative;
+}
+.view_btn {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/* commapny deltiles strat   */
