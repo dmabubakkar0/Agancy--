@@ -653,8 +653,99 @@ color: #FFF;
 
 }
 
+/* tablate strat  */
+ @media  (min-width:768px) and (max-width:1024px) {
+  
+
+  .section_01 {
+   min-width: 1114px;
+   overflow: hidden;
+  }
 
 
+   img.line_animation {
+     
+    right: -46.78999999999999px;
+     
+}
+.hero_slider .card img {
+   
+  min-height: 464px;
+}
+
+.view_btn {
+   
+  top: 83%;
+ 
+}
+
+/* section 02  */
+
+.Section_02 {
+  min-width: 1114px;
+  bottom: 117px;
+  overflow: hidden;
+}
+
+/* section 03  */
+.section_03 {
+  overflow: hidden;
+  min-width: 1114px;
+  padding-left: 0px;
+}
+
+/* section 04  */
+
+.section_04 {
+  overflow: hidden;
+  padding-top: 63px;
+  min-width: 1114px;
+}
+
+.services_card {
+  width: 311px;
+  height: 409px;
+  padding-top: 18px;
+  
+}
+
+/* .section_05  */
+
+.section_05 {
+  overflow: hidden;
+  margin-top: -158px;
+  min-width: 1114px;
+   
+
+}
+.textimonial_cards {
+  min-height: 472px;
+  width: 958px;
+  gap: 20px;
+}
+.main_card_dc {
+  margin-top: 11px;
+  
+}
+.btn {
+ 
+  margin-top: -48px;
+  
+}
+
+footer {
+  overflow: hidden;
+  min-width: 1114px;
+}
+
+
+}
+
+
+
+
+
+ 
 
 
 
