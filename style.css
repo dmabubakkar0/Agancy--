@@ -291,7 +291,6 @@ color: #FFF;
   .services_content  {
     
 min-height: 1176px;
-border: 1px solid #a8fe3b;
 display: flex;
  align-items: center;
 flex-direction: column;
@@ -321,7 +320,6 @@ letter-spacing: -1px;
 .services_card_wrapper {
 width: 1200px;
 height: 948px;
-border: 1px solid #fff;
 display: flex;
 flex-flow: row wrap;
 justify-content: center;
@@ -333,6 +331,58 @@ gap: 28px;
 .services_card {
    width: 379px;
    height: 453px;
-   border: 1px solid red;
+   padding-top: 30px;
+  
    background: #00113B;
 }
+.services_card {
+  display: flex;
+  flex-flow: column wrap;
+ 
+ align-items: center;
+  
+}
+.services_card img {
+  border-radius: 50px;
+}
+.services_card_text {
+ max-width: 292px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+
+.services_card_text h4 {
+  font-size: 20px;
+  line-height: 1.4em;
+  color: #fff;
+  font-weight: 600;
+  padding-top: 40px;
+  
+}
+
+.services_card_text p {
+  font-size: 18px;
+  line-height: 1.7777777777777777em;
+  font-weight: 400;
+  color: #BFBFBF;
+  margin-left: 10px;
+}
+
+
+
+.arrow {
+  background: #BFBFBF;
+ width: 60px;
+ height: 60px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+ 
