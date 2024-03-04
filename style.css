@@ -751,7 +751,11 @@ color: #FFF;
   
    
 }
-
+.section_04 {
+  
+  min-height: 1522px;
+  padding-top: 0px;
+}
 
 /* .section_05 strat  */
 .section_05 {
