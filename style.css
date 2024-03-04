@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
+body {
+  background-color: #08164E;
+   
+}
 .container {
   max-width: 1260px;
   margin: 0 auto;
@@ -195,4 +198,86 @@ line-height: 1.1666666666666667em;
 color: #FFF;
 
  }
+ /* How it Wokrs strat  */
+
+
+ .section_03 {
+ background-image: url(images/shap.png);
+ min-height: 670px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ padding-left: 75px;
+  
+ }
+ .work_content {
+  max-width: 1110px;
+  min-height: 654px;
+  
+  
+ }
+ .work_heading_text {
+ text-align: center;
+
+ }
+ .work_heading_text h4 {
+  font-size: 40px;
+  line-height: 1.225em;
+  font-weight: 600;
+  color: #fff;
+ }
+ .work_heading_text p {
+  font-size: 20px;
+  line-height: 1.6em;
+  font-family: 400;
+  color: #BFBFBF;
+ }
+.work_card_main_wrapper {
+
+}
+
+ .work_card_warrper {
+  min-height: 517px;
+  
+  display: flex;
+   justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+  margin-top: 20px;
+}
  
+.work_card {
+  width: 348px;
+  height: 462px;
+  
+  background: #052746;
+}
+.work_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+   
+}
+.work_card img {
+  padding-top: 16px;
+}
+.card_text {
+  padding-left: 15px;
+}
+
+
+.card_text h4 {
+  font-size: 20px;
+  line-height:  1.2em;
+  font-weight: 600;
+  color: #fff;}
+  .card_text p {
+    font-size: 18px;
+    line-height: 1.7777777777777777em;
+    letter-spacing: -1px;
+    color: #BFBFBF;
+  }
+  .secend {
+    margin-top: 11px;
+    margin-block-end: auto;
+  }
