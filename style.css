@@ -281,3 +281,58 @@ color: #FFF;
     margin-top: 11px;
     margin-block-end: auto;
   }
+
+  /* Our Services strat  */
+  .section_04 {
+    background-color: #052746;
+    min-height: 1373px;
+    padding-top: 120px;
+  }
+  .services_content  {
+    
+min-height: 1176px;
+border: 1px solid #a8fe3b;
+display: flex;
+ align-items: center;
+flex-direction: column;
+
+  }
+
+  .services_main_text  {
+    width: 954px;
+    height: 156px;
+    
+  }
+.services_text h4 {
+font-size: 20px;
+line-height: 1.4em;
+font-weight: 600;
+color: #A8FE3B;
+  text-align: center;
+}
+.services_text p {
+  font-size: 40px;
+line-height:1.225em;
+font-weight: 600;
+color: #fff;
+letter-spacing: -1px;
+  text-align: center;
+}
+.services_card_wrapper {
+width: 1200px;
+height: 948px;
+border: 1px solid #fff;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+gap: 28px;
+
+}
+
+.services_card {
+   width: 379px;
+   height: 453px;
+   border: 1px solid red;
+   background: #00113B;
+}
