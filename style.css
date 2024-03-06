@@ -162,7 +162,7 @@ img.line_animation {
 
 .view_btn {
   position: absolute;
-  top: 91%;
+   bottom: -30px;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -651,7 +651,7 @@ footer {
 }
 
 .copy_right_sect {
-  max-width: 1201px;
+  
   min-height: 56px;
   border-top: 1px solid #FFFF;
   margin-top: 45px;
@@ -694,5 +694,43 @@ footer {
 
   padding-top: 10px;
   color: #FFF;
+
+}
+ /* Styles for tablets */
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  
+  
+  
+  .menus {
+     
+    gap: 21px;
+}
+  .hero_slider .card img {
+    max-width: 100%;
+    min-height: 255px;
+}
+
+
+.view_btn {
+  position: absolute;
+  
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.view_btn {
+ 
+  bottom: 244px;
+ 
+ 
+}
+
+
+
 
 }
