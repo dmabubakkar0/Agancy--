@@ -44,6 +44,30 @@ nav.navbar {
   line-height: 1.25em;
   color: #ffffff;
 }
+#check {
+  display: none;
+}
+nav::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  
+  
+  z-index: -1;
+}
+
+.Menu_icon {
+  position: absolute;
+  right: 5%;
+  font-size: 2.8em;
+  color: #FFF;
+  cursor: pointer;
+  display: none;
+}
+
 
 .button {
   padding: 12px 24px;
@@ -263,13 +287,14 @@ img.line_animation {
 
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 33px;
    padding-top: 95px;
 }
 
 .work_card {
-   padding: 16px 16px 20px 16px;
+    max-width: 348px;
+    min-height: 462px;
   background: #052746;
 }
 
@@ -281,6 +306,8 @@ img.line_animation {
 
 }
 .secend {
+  max-width: 348px;
+  min-height: 462px;
   position: relative;
   bottom: 55px;
 }
@@ -451,7 +478,8 @@ padding-left: 16px;
 
  background-color: #052746;
  
- padding: 78px 28px 40px 28px;
+  max-width: 373px;
+  min-height: 358px;
 text-align: center;
 position: relative;
 }
@@ -474,6 +502,7 @@ position: relative;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
+  padding-top: 66px;
 }
 
 .textimonial_card h6 {
@@ -563,7 +592,7 @@ footer {
   gap: 54px;
 }
 
-.office_about {}
+ 
 
 .office_about p {
   padding-top: 20px;
@@ -666,12 +695,22 @@ footer {
 
 }
 
-.main .navbar {
-  display: flex;
-  gap: 48px;
+.main h4 {
+
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #ffff;
+  font-weight: 400;
 }
 
-.main .navbar a {
+
+#navbar ul  {
+  list-style: none;
+  display: flex;
+  gap:20px ;
+}
+
+#navbar ul li a {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5em;
@@ -699,7 +738,7 @@ footer {
  /* Styles for tablets */
 
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   
   
   
@@ -730,6 +769,118 @@ footer {
  
 }
 
+
+
+/* .Section_02 {
+  
+  position: absolute;
+  bottom: -222px;
+} */
+
+
+
+
+
+/* .Section_02  */
+
+
+.work_card_warrper {
+  gap: 11px 11px;
+  padding-top: 95px;
+  flex-wrap: wrap;
+}
+
+.secend {
+  position: relative;
+  bottom: 0px;
+}
+
+
+.work_card img {
+  max-width: 260px;
+}
+
+.card_text {
+  padding-left: 50px;
+}
+
+.card_text p {
+  
+  letter-spacing: 0px;
+   
+}
+
+
+
+
+
+
+.section_04 {
+ 
+  margin-top: 29px;
+}
+
+
+
+.services_card_wrapper {
+  
+  grid-template-columns: repeat(2, 1fr);
+ 
+}
+
+
+
+
+/* .section_05  */
+
+.textimonial_cards {
+ 
+  gap: 10px;
+}
+
+
+ 
+
+
+.textimonial_card img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 86px;
+}
+
+
+.textimonial_card h4 {
+  
+  padding-top: 66px;
+}
+
+
+
+
+
+
+.office {
+  
+ 
+  
+  flex-wrap: wrap;
+  gap: 54px;
+}
+
+#navbar ul {
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+  
+}
+.main h4 {
+
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #ffff;
+  font-weight: 400;
+}
 
 
 
