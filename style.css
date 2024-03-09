@@ -28,7 +28,7 @@ body {
 
 header {
  
-width: 100%;
+width: 95%;
 height: 80px;
 display: flex;
 justify-content: space-between;
@@ -36,6 +36,7 @@ align-items: center;
 padding: 0 119px;
 position:  fixed;
 z-index: 100;
+gap: 20px;
 
 }
 .logo {
