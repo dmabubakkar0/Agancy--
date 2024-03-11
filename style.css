@@ -27,22 +27,24 @@ body {
 }
 
 header {
- 
-width: 95%;
-height: 80px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 119px;
-position:  fixed;
-z-index: 100;
-gap: 20px;
+
+  width: 95%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 119px;
+  position: fixed;
+  z-index: 100;
+  gap: 20px;
 
 }
+
 .logo {
   display: flex;
   gap: 15px;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -52,23 +54,26 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 22px;
- font-weight: 400;
- line-height: 1.4em;
+  font-weight: 400;
+  line-height: 1.4em;
   color: #FFFFFF;
   transition: .5s all;
 }
+
 nav a:hover {
   color: #02ff96;
 }
+
 input {
   display: none;
 }
+
 .Nav_Btn_wapper {
   background-color: #A8FE3B;
   padding: 12px 24px 12px 24px;
 }
 
-.Nav_Btn_wapper  span {
+.Nav_Btn_wapper span {
   text-decoration: none;
   font-size: 1.4em;
   font-family: "Montserrat", sans-serif;
@@ -193,7 +198,7 @@ img.line_animation {
 
 .view_btn {
   position: absolute;
-   bottom: -30px;
+
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -261,11 +266,11 @@ img.line_animation {
   min-height: 772px;
   background-size: contain;
   background-repeat: no-repeat;
-  
+
 
 }
 
- 
+
 
 .work_heading_text {
   text-align: center;
@@ -287,21 +292,21 @@ img.line_animation {
   color: #BFBFBF;
 }
 
- 
+
 
 .work_card_warrper {
- 
+
 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 33px;
-   padding-top: 95px;
+  padding-top: 95px;
 }
 
 .work_card {
-    max-width: 348px;
-    min-height: 462px;
+  max-width: 348px;
+  min-height: 462px;
   background: #052746;
 }
 
@@ -312,17 +317,18 @@ img.line_animation {
   gap: 20px;
 
 }
+
 .secend {
   max-width: 348px;
   min-height: 462px;
   position: relative;
   bottom: 55px;
 }
- 
 
- .card_text {
-padding-left: 16px;
- }
+
+.card_text {
+  padding-left: 16px;
+}
 
 
 .card_text h4 {
@@ -330,8 +336,8 @@ padding-left: 16px;
   line-height: 1.2em;
   font-weight: 600;
   color: #fff;
-   
-  
+
+
 }
 
 .card_text p {
@@ -356,8 +362,8 @@ padding-left: 16px;
 .services_content {
   padding-top: 120px;
   max-width: 100%;
- 
-   
+
+
 
 }
 
@@ -404,7 +410,7 @@ padding-left: 16px;
   max-width: 97px;
   border-radius: 50px;
   min-height: 97px;
-   
+
 }
 
 .services_card h3 {
@@ -417,7 +423,7 @@ padding-left: 16px;
 
 
 .services_card p {
-  
+
   text-align: center;
   font-size: 18px;
   line-height: 1.7777777777777777em;
@@ -446,12 +452,12 @@ padding-left: 16px;
   background-color: #0A1A41;
   min-height: 885px;
   padding-top: 67px;
- 
+  overflow: hidden;
 }
 
- 
+
 .textimonial_heading {
- 
+
   text-align: center;
 }
 
@@ -461,8 +467,8 @@ padding-left: 16px;
   font-weight: 600;
   color: #A8FE3B;
 }
- 
-.textimonial_heading  h5 {
+
+.textimonial_heading h5 {
   font-size: 40px;
   line-height: 1.225em;
   font-weight: 600;
@@ -474,22 +480,22 @@ padding-left: 16px;
 
 
 .textimonial_cards {
-    padding-top: 80px;
-     
-   
- display: flex;
- gap: 40px;
-   
+  padding-top: 80px;
+
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+
 }
 
 .textimonial_card {
 
- background-color: #052746;
- 
+  background-color: #052746;
+
   max-width: 373px;
   min-height: 358px;
-text-align: center;
-position: relative;
+  text-align: center;
+  position: relative;
 }
 
 
@@ -499,11 +505,11 @@ position: relative;
   top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
+}
 
-   
 
- 
+
+
 .textimonial_card h4 {
   font-size: 20px;
   line-height: 1.6em;
@@ -521,7 +527,7 @@ position: relative;
   text-align: center;
 }
 
-.textimonial_card  p {
+.textimonial_card p {
   text-align: center;
   font-size: 18px;
   line-height: 1.6em;
@@ -538,8 +544,8 @@ position: relative;
 }
 
 .star {
-   padding-top: 30px;
- 
+  padding-top: 30px;
+
 }
 
 .fa-solid {
@@ -550,12 +556,13 @@ position: relative;
 .btn_warpper {
   text-align: center;
 }
+
 .btn {
-   padding: 14px 32px 14px 32px;
- margin-top: 40px;
+  padding: 14px 32px 14px 32px;
+  margin-top: 40px;
   background: #A8FE3B;
   display: inline-block;
-  
+
 }
 
 
@@ -564,11 +571,11 @@ position: relative;
   text-decoration: none;
   color: #444444;
 }
- 
- #left {
+
+#left {
   color: #444444;
- }
- 
+}
+
 
 #right {
   color: #111111;
@@ -600,7 +607,7 @@ footer {
   gap: 54px;
 }
 
- 
+
 
 .office_about p {
   padding-top: 20px;
@@ -611,12 +618,12 @@ footer {
 
 }
 
- 
+
 
 
 /* ************ */
- /* Unique styles for the newsletter form */
- .input-group {
+/* Unique styles for the newsletter form */
+.input-group {
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -651,7 +658,8 @@ footer {
   background-color: #05eeff;
 }
 
-.input:focus, .input:focus-visible {
+.input:focus,
+.input:focus-visible {
   border-color: #ffffff;
   outline: none;
 }
@@ -684,7 +692,7 @@ footer {
 }
 
 .contact p {
-  
+
 
   font-size: 16px;
   line-height: 1.5em;
@@ -693,7 +701,7 @@ footer {
 }
 
 .copy_right_sect {
-  
+
   min-height: 56px;
   border-top: 1px solid #FFFF;
   margin-top: 45px;
@@ -717,10 +725,10 @@ footer {
 }
 
 
-#navbar ul  {
+#navbar ul {
   list-style: none;
   display: flex;
-  gap:20px ;
+  gap: 20px;
 }
 
 #navbar ul li a {
@@ -748,40 +756,52 @@ footer {
   color: #FFF;
 
 }
- /* Styles for tablets */
+
+/* Styles for tablets */
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+
   header {
- 
-  
+
+
     padding: 0 0px;
-  
-}
-  nav {
-    
-    gap: 22px;
+    justify-content: flex-start;
+
+    gap: 6px;
+  }
+
+
+
+
+
+
+
+
+
+nav {
+
+  gap: 10px;
 }
 
 nav a {
- 
+
   font-size: 18px;
- 
-  
+
+
 }
 
- 
- 
-  .hero_slider .card img {
-    max-width: 100%;
-    min-height: 255px;
+
+
+.hero_slider .card img {
+  max-width: 100%;
+  min-height: 255px;
 }
 
 
 .view_btn {
   position: absolute;
-  
+
   bottom: -30px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -790,19 +810,20 @@ nav a {
 
 
 .view_btn {
- 
+
   bottom: 244px;
- 
- 
+
+
 }
 
 .details_text {
-   
+
   margin-left: 33px;
 }
+
 .Details_card_2 {
- 
-  
+
+
   margin-left: 30px;
 }
 
@@ -844,9 +865,9 @@ nav a {
 }
 
 .card_text p {
-  
+
   letter-spacing: 0px;
-   
+
 }
 
 
@@ -862,9 +883,9 @@ nav a {
 
 
 .services_card_wrapper {
-  
+
   grid-template-columns: repeat(2, 1fr);
- 
+
 }
 
 
@@ -875,10 +896,10 @@ nav a {
 
 
 
- 
+
 
 .textimonial_cards {
- 
+
   gap: 10px;
 }
 
@@ -893,7 +914,7 @@ nav a {
 
 
 .textimonial_card h4 {
-  
+
   padding-top: 66px;
 }
 
@@ -908,18 +929,19 @@ nav a {
 
 
 .office {
-  
- 
-  
+
+
+
   flex-wrap: wrap;
   gap: 54px;
 }
 
 #navbar ul {
-   display: grid;
-   grid-template-columns: repeat(2 , 1fr);
-  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
+
 .main h4 {
 
   font-size: 16px;
@@ -927,10 +949,11 @@ nav a {
   color: #ffff;
   font-weight: 400;
 }
-
-
-
 }
+
+
+
+
 
 
 
@@ -943,22 +966,22 @@ nav a {
 
 
 /* MOBILE STRAT  */
-@media  (max-width:767px) {
+@media (max-width:767px) {
   header {
-    
+
     padding: 0 31px;
-    
-}
+
+  }
 
   .started_btn {
     padding: 12px 13px;
- 
-}
 
-.demo_btn {
-  padding: 11px 12px;
-  
-}
+  }
+
+  .demo_btn {
+    padding: 11px 12px;
+
+  }
 
 
 
@@ -966,14 +989,14 @@ nav a {
 
   .hero_text h1 {
     font-size: 41px;
- 
-}
+
+  }
 
 
   .hero_text p {
     font-size: 18px;
-  
-}
+
+  }
 
 
 
@@ -981,107 +1004,109 @@ nav a {
 
 
   .hero_slider .card img {
-    
+
     min-height: 239px;
-}
+  }
 
-.view_btn {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .view_btn {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.section_03 {
-   
-  min-height: 1695px;
- 
-}
+  .section_03 {
 
+    min-height: 1695px;
 
-.work_heading_text h4 {
-  font-size: 30px;
-   
-}
+  }
 
 
-.work_heading_text p {
+  .work_heading_text h4 {
+    font-size: 30px;
+
+  }
+
+
+  .work_heading_text p {
     font-size: 17px;
-}
+  }
 
 
 
 
-.secend {
-  max-width: 348px;
-  min-height: 462px;
-  position: relative;
-  bottom: 0px;
-}
+  .secend {
+    max-width: 348px;
+    min-height: 462px;
+    position: relative;
+    bottom: 0px;
+  }
 
 
 
 
-.Details_content h4 {
-  font-size: 40px;
-  
-}
-.details_text {
- 
-  margin-left: 24px;
-}
+  .Details_content h4 {
+    font-size: 40px;
+
+  }
+
+  .details_text {
+
+    margin-left: 24px;
+  }
 
 
-.Details_card_2 {
-  
-   
-  margin-left: 33px;
- 
-}
-
-.Details_content {
-   
-  
-  flex-direction: column;
-}
+  .Details_card_2 {
 
 
-.Details_card {
-   
-  display: flex;
-  align-items: center;
-  gap: 36px;
-  flex-direction: column;}
+    margin-left: 33px;
+
+  }
+
+  .Details_content {
+
+
+    flex-direction: column;
+  }
+
+
+  .Details_card {
+
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-direction: column;
+  }
 
 
   .section_04 {
     background-color: #052746;
-   min-height: 3155px;
-}
+    min-height: 3155px;
+  }
 
 
 
   .services_text p {
     font-size: 23px;
- 
-}
+
+  }
 
 
 
   .services_card_wrapper {
     padding-top: 47px;
-    
+
     grid-template-columns: repeat(1, 1fr);
-    
-}
+
+  }
 
   .textimonial_cards {
-     
-    
+
+
     gap: 82px;
     flex-direction: column;
     align-items: center;
-}
+  }
 
 
   .work_card_warrper {
@@ -1091,7 +1116,7 @@ nav a {
     gap: 33px;
     padding-top: 95px;
     flex-direction: column-reverse;
-}
+  }
 
 
 
@@ -1101,30 +1126,19 @@ nav a {
 
 
 
-.office_about p {
-   
-  font-size: 16px;
- 
-  text-align: center;
-   
-}
+  .office_about p {
+
+    font-size: 16px;
+
+    text-align: center;
+
+  }
 
 
-.contact h5 {
- 
-  padding-top: 10px;
-}
+  .contact h5 {
 
-
-
-
-
-
-
-.input-group {
- 
-  justify-content: center;
-}
+    padding-top: 10px;
+  }
 
 
 
@@ -1132,38 +1146,49 @@ nav a {
 
 
 
+  .input-group {
 
-.office {
-  
-  
-  
-  gap: 54px;
-  flex-direction: column;
-  align-items: center;
-}
+    justify-content: center;
+  }
 
 
 
 
-.copy_right_sect {
- 
-  padding-top: 27px;
-}
-
-.main {
-  
-  flex-direction: column;
-  gap: 40px;
-  align-items: center;
-}
 
 
-#navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
+
+
+  .office {
+
+
+
+    gap: 54px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+
+  .copy_right_sect {
+
+    padding-top: 27px;
+  }
+
+  .main {
+
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
 
 
 
