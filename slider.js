@@ -37,12 +37,12 @@ $(document).ready(function () {
     items:3,
     responsive: {
       0: {
-        items: 1,
+        items: 2,
         nav: false,
-      
+       
       },
       600: {
-        items: 3,
+        items: 2,
         nav: false,
       },
       1000: {
