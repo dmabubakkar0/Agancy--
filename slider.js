@@ -33,23 +33,30 @@ $(document).ready(function () {
     responsiveClass: true,
     autoplay: 100,
     nav: false,
-   center:true,
-    items:3,
+   
     responsive: {
-      0: {
-        items: 2,
-        nav: false,
-       
+      480:{
+        items:0,  
+        nav:false,  
       },
-      600: {
-        items: 2,
-        nav: false,
+      
+      678:{
+        items:3,  
+        center:true, 
       },
-      1000: {
-        items: 3,
-        nav: false,
+      
+      960:{
+        items:1,   
+        margin:20,  
+        center:false, 
+      
+      },
+      
+      1200:{
+        items:3,
+        loop:false,
         margin: 30,
-      },
-    },
+    }
+  }
   });
 });
