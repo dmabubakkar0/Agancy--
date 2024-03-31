@@ -26,37 +26,37 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function () {
-  $(".testimonial ").owlCarousel({
-    loop: true,
-    margin: 10,
-    responsiveClass: true,
-    autoplay: 100,
-    nav: false,
+// $(document).ready(function () {
+//   $(".testimonial ").owlCarousel({
+//     loop: true,
+//     margin: 10,
+//     responsiveClass: true,
+//     autoplay: 100,
+//     nav: false,
    
-    responsive: {
-      480:{
-        items:0,  
-        nav:false,  
-      },
+//     responsive: {
+//       480:{
+//         items:0,  
+//         nav:false,  
+//       },
       
-      678:{
-        items:3,  
-        center:true, 
-      },
+//       678:{
+//         items:3,  
+//         center:true, 
+//       },
       
-      960:{
-        items:1,   
-        margin:20,  
-        center:false, 
+//       960:{
+//         items:1,   
+//         margin:20,  
+//         center:false, 
       
-      },
+//       },
       
-      1200:{
-        items:3,
-        loop:false,
-        margin: 30,
-    }
-  }
-  });
-});
+//       1200:{
+//         items:3,
+//         loop:false,
+//         margin: 30,
+//     }
+//   }
+//   });
+// });

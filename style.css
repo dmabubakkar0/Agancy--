@@ -37,6 +37,8 @@ header {
   position: fixed;
   z-index: 100;
   gap: 20px;
+  background-color: #052746;
+  backdrop-filter: bluer(5px);
 
 }
 
@@ -797,7 +799,12 @@ nav a {
   max-width: 100%;
   min-height: 255px;
 }
-
+.slider_wrapper {
+  min-height: 0px;
+  position: relative;
+  
+  top: 92px;
+}
 
 .view_btn {
   position: absolute;
@@ -809,12 +816,7 @@ nav a {
 
 
 
-.view_btn {
-
-  bottom: 244px;
-
-
-}
+ 
 
 .details_text {
 
@@ -828,18 +830,30 @@ nav a {
 }
 
 
+.Details_content h4 {
+  font-size: 46px;
+  line-height: 1.21875em;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.Details_content p {
+  font-size: 18px;
+ 
+}
 
 
+ 
+/* ............ */
+.textimonial_cards {
+  padding-top: 80px;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} 
 
-/* .Section_02 {
-  
-  position: absolute;
-  bottom: -222px;
-} */
-
-
-
-
+/* ........... */
 
 /* .Section_02  */
 
@@ -887,7 +901,10 @@ nav a {
   grid-template-columns: repeat(2, 1fr);
 
 }
-
+.services_text p {
+  font-size: 32px;
+ 
+}
 
 
 /* .section_05  */
@@ -919,11 +936,34 @@ nav a {
 }
 
 
+.textimonial_heading h5 {
+  font-size: 46px;
+ 
+}
+
+
+
+
+
+
+
+
 .section_05 {
   background-color: #0A1A41;
   min-height: 722px;
   padding-top: 67px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -952,7 +992,13 @@ nav a {
 }
 
 
-
+.office_about p {
+ 
+  font-size: 18px;
+ 
+  text-align: justify;
+  
+}
 
 
 
@@ -1091,14 +1137,13 @@ nav a {
 
   }
 
-
-
   .services_card_wrapper {
     padding-top: 47px;
-
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
 
-  }
+ 
 
   .textimonial_cards {
 
